@@ -1,0 +1,38 @@
+.top-nav {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+
+.left-top-nav {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+#input-bar {
+    position: relative;
+    padding: 13px;
+    border-radius: 10%;
+}
+
+#google-buttons {
+    padding: 12px;
+    color: rgb(104, 104, 104);
+    background-color: rgba(236, 236, 236, 0.959);
+    border-radius: 5px;
+}
+
+#google-buttons:hover {
+    color: black;
+    border: black;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
