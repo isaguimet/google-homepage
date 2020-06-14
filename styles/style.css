@@ -1,32 +1,45 @@
 .top-nav {
     display: flex;
-    font-size: 15px;
-    border: 1px solid black;
-    justify-items: center;
+    font-size: 14px;
     width: auto;
     padding: 5px;
+    justify-content: space-between;
 }
-
-.left-top-nav {
-    color: grey;
+/* Top nav bar links are set to un-underlined yes */
+#about-nav {
     text-decoration: none;
-    padding: 10px; 
+    margin: 5px;
 }
 
-.mail-link {
-    padding: 0px;
-}
-
-.mail-link, .images-link {
-    color: grey;
+#store-nav {
     text-decoration: none;
-    padding: 10px;  
-    margin-left: auto;
+    margin: 5px;
+}
+
+#mail-nav {
+    text-decoration: none;
+    margin: 5px;
+}
+
+#images-nav {
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Setting top bar nav links to always be grey and underlined on hover */
+
+#about-nav:visited , #about-nav:link, #store-nav:visited, #store-nav:link, 
+#mail-nav:visited , #mail-nav:link, #images-nav:visited , #images-nav:link {
+    color: rgb(56, 54, 54);
+}
+
+#about-nav:hover, #store-nav:hover, #mail-nav:hover, #images-nav:hover  {
+    text-decoration: underline;
 }
 
 #input-bar {
     position: relative;
-    top: 15px;
+    top: 17px;
     width: 500px;
     height: 30px;
     border: 1px solid rgb(211, 209, 209);
@@ -40,15 +53,17 @@
 }
 
 #google-buttons {
-    padding: 12px;
+    padding: 13px;
     color: rgb(104, 104, 104);
     background-color: rgba(236, 236, 236, 0.959);
     border-radius: 5px;
+    border-color: transparent;
+    margin: 3px;
 }
 
 #google-buttons:hover {
     color: black;
-    border:black;
+    border-color: rgb(209, 209, 209);
 }
 
 #main-page {
@@ -65,7 +80,7 @@
     height: 25%;
 }
 
-/* CSS for icons in homepage: */
+/* CSS for icons in homepage: doesn't work yet*/
 .gg-search {
     width: 10px;
     height: 10px;
