@@ -1,21 +1,42 @@
 .top-nav {
     display: flex;
-    color: grey;
-    text-decoration: none;
-    justify-content: flex-start;
+    font-size: 15px;
+    border: 1px solid black;
+    justify-items: center;
+    width: auto;
+    padding: 5px;
 }
 
 .left-top-nav {
-    display: flex;
     color: grey;
     text-decoration: none;
-    justify-content: flex-end;
+    padding: 10px; 
+}
+
+.mail-link {
+    padding: 0px;
+}
+
+.mail-link, .images-link {
+    color: grey;
+    text-decoration: none;
+    padding: 10px;  
+    margin-left: auto;
 }
 
 #input-bar {
     position: relative;
-    padding: 13px;
-    border-radius: 10%;
+    top: 15px;
+    width: 500px;
+    height: 30px;
+    border: 1px solid rgb(211, 209, 209);
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+}
+
+#input-bar:hover {
+    box-shadow: 1px 1px 1px 1px grey;
 }
 
 #google-buttons {
@@ -27,7 +48,7 @@
 
 #google-buttons:hover {
     color: black;
-    border: black;
+    border:black;
 }
 
 #main-page {
@@ -35,4 +56,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+#google-letters {
+    width: 25%;
+    height: 25%;
+}
+
+/* CSS for icons in homepage: */
+.gg-search {
+    width: 10px;
+    height: 10px;
 }
