@@ -1,27 +1,13 @@
-.top-nav {
+.top-nav-bar {
     display: flex;
     font-size: 14px;
     width: auto;
     padding: 5px;
     justify-content: space-between;
 }
-/* Top nav bar links are set to un-underlined yes */
-#about-nav {
-    text-decoration: none;
-    margin: 5px;
-}
 
-#store-nav {
-    text-decoration: none;
-    margin: 5px;
-}
-
-#mail-nav {
-    text-decoration: none;
-    margin: 5px;
-}
-
-#images-nav {
+/* Top nav bar links are set to be not underlined */
+#about-nav, #store-nav, #mail-nav, #images-nav {
     text-decoration: none;
     margin: 5px;
 }
@@ -52,8 +38,8 @@
     box-shadow: 1px 1px 1px 1px grey;
 }
 
-#google-buttons {
-    padding: 13px;
+.google-buttons {
+    padding: 10px;
     color: rgb(104, 104, 104);
     background-color: rgba(236, 236, 236, 0.959);
     border-radius: 5px;
@@ -61,7 +47,7 @@
     margin: 3px;
 }
 
-#google-buttons:hover {
+.google-buttons:hover {
     color: black;
     border-color: rgb(209, 209, 209);
 }
@@ -78,6 +64,37 @@
 #google-letters {
     width: 25%;
     height: 25%;
+}
+
+/* Styling bottom navigation bar of homepage */
+
+.bottom-nav-bar {
+    display: flex;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+    top: 300px;
+    justify-content: space-between;
+}
+
+/* Bottom nav bar links are set to be not underlined */
+
+#ad-nav , #business-nav, #how-search-nav, #privacy-nav, #terms-nav, #settings-nav {
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Setting bottom bar nav links to always be grey and underlined on hover */
+
+#ad-nav:visited , #ad-nav:link, #business-nav:visited, #business-nav:link, 
+#how-search-nav:visited , #how-search-nav:link, #privacy-nav:visited , #privacy-nav:link ,
+#terms-nav:visited, #terms-nav:link, #settings-nav:visited, #settings-nav:link {
+    color: grey;
+}
+
+#ad-nav:hover, #business-nav:hover, #how-search-nav:hover, #privacy-nav:hover, #terms-nav:hover, #settings-nav:hover {
+    text-decoration: underline;
 }
 
 /* CSS for icons in homepage: doesn't work yet*/

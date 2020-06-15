@@ -5,13 +5,16 @@
         <meta charset="utf-8">
         <meta name="author" content="Isabella Guimet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- CSS Style sheet link -->
         <link href="styles/style.css" rel="stylesheet">
+
         <!-- ICONS used for homepage -->
+        <link href='https://css.gg/menu-grid-r.css' rel='stylesheet'>
         <link href='https://css.gg/search.css' rel='stylesheet'>
     </head>
     <body>
-        <div class="top-nav">
+        <header class="top-nav-bar">
             <div class="left-top-nav">
                 <a id="about-nav" target="_blank" href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header"
                 >About</a>
@@ -22,9 +25,10 @@
                 <a id="mail-nav" target="_blank" href="https://mail.google.com/mail/u/0/?ogbl#">Gmail</a>
                 <a id="images-nav" target="_blank" href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl">Images</a>
             </div>
-        </div>
+        </header>
         <div id="main-page">
             <img id="google-letters" src="/images/google.png" alt="Picture of Google colored letters">
+
             <!-- Google Search Bar in Form tags -->
             <form>
                     <input id="input-bar" type="text">
@@ -32,14 +36,25 @@
             <br> 
             <br>
             <span>
-                <button id="google-buttons">Google Search</button>
-                <button id="google-buttons">I'm Feeling Lucky</button>
+                <button class="google-buttons">Google Search</button>
+                <button class="google-buttons">I'm Feeling Lucky</button>
             </span>
             <br> <br> <br>
             <div>
                 <h style="position: center; text-decoration: none;">Google offered in: <a href="#">French</a></h>
             </div>
         </div>
-        
+        <footer class="bottom-nav-bar">
+            <div class="bottom-left-nav">
+                <a id="ad-nav" href="#">Advertising</a>
+                <a id="business-nav" href="#">Business</a>
+                <a id="how-search-nav" href="#">How Search works</a>
+            </div>
+            <div class="bottom-right-nav">
+                <a id="privacy-nav" href="#">Privacy</a>
+                <a id="terms-nav" href="#">Terms</a>
+                <a id="settings-nav" href="#">Settings</a>
+            </div>
+        </footer>
     </body>
 </html>
