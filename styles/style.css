@@ -1,3 +1,11 @@
+/* Main CSS file for google homepage project */
+
+#main-king {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Navigation bar uses CSS Flexbox */
 .top-nav-bar {
     display: flex;
     font-size: 13px;
@@ -78,13 +86,22 @@
     height: 25%;
 }
 
-/* Styling bottom navigation bar of homepage */
+/* Styling "French" link to be un-underlined */
+#offered-text {
+    position: relative;
+    top: 30px;
+}
 
+#french-link {
+    text-decoration: none;
+}
+
+/* Styling bottom navigation bar of homepage */
 .bottom-nav-bar {
     display: flex;
     background-color: rgb(236, 236, 236);
     padding: 10px;
-    font-size: 15px;
+    font-size: 14px;
     position: relative;
     top: 300px;
     justify-content: space-between;
