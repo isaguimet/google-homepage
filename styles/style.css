@@ -1,8 +1,9 @@
 .top-nav-bar {
     display: flex;
-    font-size: 14px;
+    font-size: 13px;
+    font-family: sans-serif;
     width: auto;
-    padding: 5px;
+    padding: 10px;
     justify-content: space-between;
 }
 
@@ -23,6 +24,17 @@
     text-decoration: underline;
 }
 
+/* Setting Sign in button to be blue with white letters */
+
+#sign-btn-nav {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+    height: 30px;
+    width: 70px;
+}
+
 #input-bar {
     position: relative;
     top: 17px;
@@ -39,7 +51,7 @@
 }
 
 .google-buttons {
-    padding: 10px;
+    padding: 9px;
     color: rgb(104, 104, 104);
     background-color: rgba(236, 236, 236, 0.959);
     border-radius: 5px;
