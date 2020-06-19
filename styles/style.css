@@ -32,6 +32,15 @@
     text-decoration: underline;
 }
 
+/* Styling Google Menu grid to be aligned */
+#menu-nav {
+    position: relative;
+    top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+}
+
 /* Setting Sign in button to be blue with white letters */
 
 #sign-btn-nav {
@@ -75,7 +84,7 @@
 
 .google-buttons:hover {
     color: black;
-    border-color: rgb(209, 209, 209);
+    border: 1px solid rgb(219, 219, 219);
 }
 
 #main-page {
@@ -96,6 +105,11 @@
 #french-link {
     text-decoration: none;
 }
+
+#french-link:hover {
+    text-decoration: underline;
+}
+
 
 /* Styling bottom navigation bar of homepage */
 .bottom-nav-bar {
