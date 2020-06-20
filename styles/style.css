@@ -8,11 +8,21 @@
 /* Top Navigation bar uses CSS Flexbox */
 .top-nav-bar {
     display: flex;
+    flex-direction: row;
     font-size: 13px;
     font-family: sans-serif;
     width: auto;
-    padding: 10px;
+    padding: 5px;
     justify-content: space-between;
+}
+
+/* Top nav bar: positioning links */
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
 }
 
 /* Top nav bar links are set to be not underlined */
