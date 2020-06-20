@@ -1,2 +1,3 @@
 # google-homepage
-TOP: WebDev 101 - HTML/CSS
+
+Mini project from The Odin Project. Section: Web Development 101 - Project: HTML/CSS
