@@ -123,12 +123,28 @@ li {
 
 /* Styling bottom navigation bar of homepage */
 .bottom-nav-bar {
+    display: grid;
+    background-color: rgb(247, 245, 245);
+    width: 97%;
+    padding: 15px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+}
+
+#canada-nav {
+    color: grey;
+}
+
+hr {
+    border-top: 0.5px dotted rgb(44, 43, 43);
+}
+
+/* Styling nav bar where "Adv, Business, How Search Works, etc links go */
+.lowest-nav-bar {
     display: flex;
     background-color: rgb(247, 245, 245);
-    padding: 10px;
-    font-size: 14px;
-    position: relative;
-    top: 300px;
+    padding: 5px;
     justify-content: space-between;
 }
 
@@ -136,7 +152,7 @@ li {
 
 #ad-nav , #business-nav, #how-search-nav, #privacy-nav, #terms-nav, #settings-nav {
     text-decoration: none;
-    margin: 5px;
+    margin: 1px;
 }
 
 /* Setting bottom bar nav links to always be grey and underlined on hover */
@@ -149,10 +165,4 @@ li {
 
 #ad-nav:hover, #business-nav:hover, #how-search-nav:hover, #privacy-nav:hover, #terms-nav:hover, #settings-nav:hover {
     text-decoration: underline;
-}
-
-/* CSS for icons in homepage: doesn't work yet*/
-.gg-search {
-    width: 10px;
-    height: 10px;
 }
