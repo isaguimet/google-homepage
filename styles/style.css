@@ -80,9 +80,6 @@ li {
     box-sizing: border-box;
     outline: none;
     padding: 15px 30px;
-   /* background: url("/images/search.png") no-repeat, url("/images/voice.png") no-repeat; 
-    background-size: 15px, 12px;
-    background-position: left 10px center, right 10px center; */
 }
 
 #input-bar:hover {
@@ -95,7 +92,7 @@ li {
     position: relative;
     z-index: 1;
     right: 445px;
-    top: 15px;
+    top: 17px;
     color: #7B7B7B;
     cursor: default;
     width: 0;
@@ -105,7 +102,7 @@ li {
     position: relative;
     z-index: 1;
     left: -25px;
-    top: 15px;
+    top: 17px;
     color: #043fe0;
     cursor: default;
     width: 0;
