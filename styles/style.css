@@ -49,6 +49,7 @@ li {
     padding-left: 10px;
     padding-right: 10px;
     color: grey;
+    outline: none;
 }
 
 /* Setting Sign in button to be blue with white letters */
